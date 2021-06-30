@@ -1,0 +1,41 @@
+.About {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 100px;
+    grid-template-areas: "info tech";
+    @media(max-width: 600px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "info" "tech";
+        gap: 20px;
+    }
+    h4 {
+        width: 300px;
+        width: max-content;
+        margin-bottom: 30px;
+        padding-bottom: 5px;
+        border-bottom: 2px solid rgba(100, 151, 177, 0.3);
+    }
+    p {
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+    .About__info {
+        grid-area: info;
+    }
+    .About__tech {
+        grid-area: tech;
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            li {
+                padding: 10px 20px;
+                background: #6497b1;
+                color: #ffffff;
+                margin: 0 20px 20px 0;
+                border-radius: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.Header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 70px;
+    background: #ffffff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    z-index: 100;
+    @media(max-width: 600px) {
+        padding: 0 20px;
+        justify-content: flex-end;
+    }
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 25%;
+        li {
+            position: relative;
+            list-style: none;
+            cursor: pointer;
+            &:after {
+                content: "";
+                position: absolute;
+                width: 0;
+                height: 2px;
+                display: block;
+                margin-top: 2px;
+                right: 0;
+                background: rgba(100, 151, 177, 0.3);
+                transition: 400ms ease;
+            }
+            &:hover::after {
+                width: 100%;
+                left: 0;
+                background: rgba(100, 151, 177, 0.3);
+            }
+            a.active {
+                color: rgba(100, 151, 177) !important;
+            }
+        }
+    }
+    .Header__close {
+        display: none;
+    }
+}
