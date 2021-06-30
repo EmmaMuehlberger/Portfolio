@@ -31,12 +31,12 @@ const About = () => {
                     <li>CSS</li>
                     <li>Javascript</li>
                     <li>SASS</li>
+                    <li>React</li>
                     <li>Node</li>
                     <li>Express</li>
                     <li>SQL</li>
                     <li>MongoDB</li>
                     <li>PHP</li>
-                    <li>Python</li>
                 </ul>
             </div>
         </div>
