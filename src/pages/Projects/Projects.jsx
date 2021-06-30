@@ -89,12 +89,12 @@ const Projects = () => {
                 {filter === "" 
                     ? projects.map((project) => {
                         return (
-                            <Project image={project.image} title={project.title} tags={project.tags} link={project.link} source={project.source} />
+                            <Project image={project.image} title={project.title} tags={project.tags} link={project.link} source={project.source} key={Math.random()} />
                         )
                     }) 
                     : projects.filter(project => project.tags.includes(filter)).map((project) => {
                         return (
-                            <Project image={project.image} title={project.title} tags={project.tags} link={project.link} source={project.source} />
+                            <Project image={project.image} title={project.title} tags={project.tags} link={project.link} source={project.source} key={Math.random()} />
                         )
                     })
                     
