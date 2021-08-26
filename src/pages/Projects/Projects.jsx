@@ -11,6 +11,13 @@ const Projects = () => {
 
     const projects = [
         {
+            image: "coffeeshop.png",
+            title: "Starbucks Landingpage Clone",
+            tags: ["HTML", "SASS", "Javascript", "React"],
+            link: "https://coffeeshop-landingpage.netlify.app/",
+            source: "https://github.com/EmmaMuehlberger/Starbucks-Landingpage-Clone"
+        },
+        {
             image: "pwa.png",
             title: "Dictionary PWA",
             tags: ["HTML", "SASS", "Javascript", "React", "PWA"],
