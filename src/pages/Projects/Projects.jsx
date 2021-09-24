@@ -11,11 +11,11 @@ const Projects = () => {
 
     const projects = [
         {
-            image: "coffeeshop.png",
-            title: "Starbucks Landingpage Clone",
-            tags: ["HTML", "SASS", "Javascript", "React"],
-            link: "https://coffeeshop-landingpage.netlify.app/",
-            source: "https://github.com/EmmaMuehlberger/Starbucks-Landingpage-Clone"
+            image: "store-locator.png",
+            title: "Store Locator",
+            tags: ["HTML", "SASS", "Javascript"],
+            link: "https://northland-store-locator.netlify.app/",
+            source: "https://github.com/EmmaMuehlberger/Store-Locator"
         },
         {
             image: "pwa.png",
@@ -56,7 +56,7 @@ const Projects = () => {
             image: "kaffeefinder.png",
             title: "Kaffeefinder",
             tags: ["HTML", "CSS", "Javascript"],
-            link: null,
+            link: "https://shop.berliner-kaffeeroesterei.de/kaffeefinder/start.html",
             source: null
         }
     ]
