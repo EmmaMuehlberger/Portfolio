@@ -11,37 +11,44 @@ const Projects = () => {
 
     const projects = [
         {
+            image: "instagram.png",
+            title: "Instagram Clone",
+            tags: ["HTML", "SCSS", "Javascript", "Nuxt"],
+            link: "https://thegram.netlify.app/",
+            source: "https://github.com/EmmaMuehlberger/insta-clone"
+        },
+        {
             image: "store-locator.png",
             title: "Store Locator",
-            tags: ["HTML", "SASS", "Javascript"],
+            tags: ["HTML", "SCSS", "Javascript"],
             link: "https://northland-store-locator.netlify.app/",
             source: "https://github.com/EmmaMuehlberger/Store-Locator"
         },
         {
             image: "pwa.png",
             title: "Dictionary PWA",
-            tags: ["HTML", "SASS", "Javascript", "React", "PWA"],
+            tags: ["HTML", "SCSS", "Javascript", "React", "PWA"],
             link: "https://urban-dictionary-pwa.netlify.app/",
             source: "https://github.com/EmmaMuehlberger/React-PWA-Dictionary-App"
         },
         {
             image: "bookstore.png",
             title: "Bookstore - React Webshop",
-            tags: ["HTML", "SASS", "Javascript", "React", "Redux"],
+            tags: ["HTML", "SCSS", "Javascript", "React", "Redux"],
             link: "https://every-book.netlify.app/",
             source: "https://github.com/EmmaMuehlberger/React-Ecommerce-Webshop-Bookstore"
         },
         {
             image: "companyx.png",
             title: "Animated Landing Page",
-            tags: ["HTML", "SASS", "Javascript", "React", "GSAP"],
+            tags: ["HTML", "SCSS", "Javascript", "React", "GSAP"],
             link: "https://companyx-gsap-homepage.netlify.app/",
             source: "https://github.com/EmmaMuehlberger/React-Gsap-Homepage"
         },
         {
             image: "sql-login.png",
             title: "Login and Authentication Systems",
-            tags: ["HTML", "SASS", "Javascript", "React", "Node", "Express", "SQL"],
+            tags: ["HTML", "SCSS", "Javascript", "React", "Node", "Express", "SQL"],
             link: null,
             source: "https://github.com/EmmaMuehlberger/SQL-Login-System"
         },
@@ -84,13 +91,14 @@ const Projects = () => {
         <div className="Projects page">
             <div className="Projects__searchbar">
                 <button onClick={onClickHandler} value="" className={filter === "" ? "btn-light active" : "btn-light"}>All</button>
-                <button onClick={onClickHandler} value="SASS" className={filter === "SASS" ? "btn-light active" : "btn-light"}>SASS</button>
+                <button onClick={onClickHandler} value="SCSS" className={filter === "SCSS" ? "btn-light active" : "btn-light"}>SCSS</button>
                 <button onClick={onClickHandler} value="React" className={filter === "React" ? "btn-light active" : "btn-light"}>React</button>
                 <button onClick={onClickHandler} value="Redux" className={filter === "Redux" ? "btn-light active" : "btn-light"}>Redux</button>
                 <button onClick={onClickHandler} value="SQL" className={filter === "SQL" ? "btn-light active" : "btn-light"}>SQL</button>
                 <button onClick={onClickHandler} value="Node" className={filter === "Node" ? "btn-light active" : "btn-light"}>Node</button>
                 <button onClick={onClickHandler} value="GSAP" className={filter === "GSAP" ? "btn-light active" : "btn-light"}>GSAP</button>
                 <button onClick={onClickHandler} value="PWA" className={filter === "PWA" ? "btn-light active" : "btn-light"}>PWA</button>
+                <button onClick={onClickHandler} value="Nuxt" className={filter === "Nuxt" ? "btn-light active" : "btn-light"}>Nuxt</button>
             </div>
             <div className="Projects__container">
                 {filter === "" 
