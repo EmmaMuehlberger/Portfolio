@@ -1,4 +1,4 @@
-# React Bookstore
+# Portfolio
 
 Portfolio wesbite build using React, SCSS and GSAP. 
 
