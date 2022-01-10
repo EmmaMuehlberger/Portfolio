@@ -30,7 +30,7 @@ const About = () => {
                     <li>HTML (very good)</li>
                     <li>CSS (very good)</li>
                     <li>Javascript (very good)</li>
-                    <li>SASS (very good)</li>
+                    <li>SASS/CSS (very good)</li>
                     <li>Nuxt (good)</li>
                     <li>Vue (good)</li>
                     <li>React (good)</li>
@@ -39,8 +39,9 @@ const About = () => {
                     <li>Express (good)</li>
                     <li>SQL (good)</li>
                     <li>MongoDB (basic)</li>
-                    <li>PHP (basic)</li>
+                    <li>Django (basic)</li>
                     <li>Python (basic)</li>
+                    <li>PHP (basic)</li>
                 </ul>
             </div>
         </div>

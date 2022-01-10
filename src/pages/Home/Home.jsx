@@ -6,7 +6,7 @@ import "./Home.scss";
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 const Home = () => {
-    const cv = require("../../CV.pdf");
+    const cv = require("../../img/lebenslauf.pdf");
 
     return (
         <div className="Home page">

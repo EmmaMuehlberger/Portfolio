@@ -5,7 +5,8 @@
         grid-gap: 20px;
         padding-bottom: 30px;
         @media(max-width: 600px) {
-            grid-template-columns: repeat(2, 1fr);
+            display: flex;
+            overflow: scroll;
         }
     }
     .Projects__container {
